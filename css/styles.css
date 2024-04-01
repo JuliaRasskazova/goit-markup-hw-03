@@ -57,7 +57,8 @@ ul {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
+
 }
 .header .container {
     display: flex;
@@ -65,7 +66,7 @@ ul {
 .header-nav {
 display: flex;
 align-items: center;
-padding: 24px 0;
+
 }
 .heading {
     font-weight: 500;
@@ -96,7 +97,7 @@ padding: 24px 0;
     text-transform: uppercase;
     color: #f4f4fd; 
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     align-items: center;
     margin-bottom: 16px;
 }
@@ -110,7 +111,7 @@ padding: 24px 0;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     align-items: center;
     margin-right: 76px;
     margin-bottom: 16px;
@@ -124,7 +125,7 @@ padding: 24px 0;
     text-transform: uppercase;
     color: #2e2f42;
     text-decoration: none;
-    display: inline-block;
+    display: flex;
     align-items: center;
     margin-right: 76px;
 }
@@ -132,17 +133,18 @@ padding: 24px 0;
     display: flex;
     gap: 40px;
     align-items: center;
-    padding: 24px 0;
     
 }
 
 .navigation-link {
+    display: block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
+        padding: 24px 0;
     
  }
  .navigation .navigation-link:hover,
@@ -150,10 +152,10 @@ padding: 24px 0;
      color: #404bbf;
  }
  .address {
-    display: flex;
+    display: block;
      font-style: normal;
-     justify-content: space-between;
-     
+     margin-left: auto;
+    padding: 24px 0;
  }
 
   .list {
@@ -173,7 +175,7 @@ padding: 24px 0;
   .add {
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+ 
   }
  .add-list {
     line-height: 1.5;
@@ -190,7 +192,6 @@ padding: 24px 0;
 }
  .hero .container {
     background-color: #2e2f42;
-    width: 1440px;
     padding: 188px 0;
 }
  
