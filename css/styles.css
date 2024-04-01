@@ -48,8 +48,9 @@ ul {
     width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
-         margin: 0 auto;
+    margin: 0 auto;
 }
+
 .strategy, 
 .team,
 .portfolio {
@@ -144,7 +145,7 @@ align-items: center;
     letter-spacing: 0.02em;
     color: #2e2f42;
     text-decoration: none;
-        padding: 24px 0;
+    padding: 24px 0;
     
  }
  .navigation .navigation-link:hover,
