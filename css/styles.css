@@ -98,9 +98,9 @@ align-items: center;
     text-transform: uppercase;
     color: #f4f4fd; 
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    margin-bottom: 16px;
+   
 }
 
 .logo-web {
@@ -112,10 +112,10 @@ align-items: center;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    margin-right: 76px;
-    margin-bottom: 16px;
+    
+
 }
 .logo-studio {
     font-family: "Raleway", sans-serif;
@@ -126,9 +126,10 @@ align-items: center;
     text-transform: uppercase;
     color: #2e2f42;
     text-decoration: none;
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    margin-right: 76px;
+    
+   
 }
 .navigation {
     display: flex;
