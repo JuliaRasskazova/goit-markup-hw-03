@@ -55,17 +55,7 @@ ul {
 .portfolio {
     padding: 120px 0;
 }
-.subject {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-    margin: 0auto;
-}
+
 .header {
     border-bottom: 1px solid #e7e9fc
 }
@@ -75,6 +65,7 @@ ul {
 .header-nav {
 display: flex;
 align-items: center;
+
 
 }
 .heading {
@@ -183,6 +174,7 @@ align-items: center;
   .add {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
   }
  .add-list {
     line-height: 1.5;
@@ -194,7 +186,9 @@ align-items: center;
  .add .add-list:focus {
     color: #404bbf;
  }
-
+.hero {
+    padding: 188px 0;
+}
  .hero .container {
     background-color: #2e2f42;
     width: 1440px;
@@ -242,6 +236,17 @@ align-items: center;
  }
 .items {
     width: 264px;
+}
+.subject {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+    margin: 0auto;
 }
  .text-list {
     font-weight: 400;
